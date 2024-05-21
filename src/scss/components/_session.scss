@@ -1,0 +1,47 @@
+@use "../util" as *;
+
+#session {
+  width: 400px;
+
+  .time-row {
+    padding: 0%;
+    margin: auto;
+    #time-left {
+      padding: 0%;
+      font-size: rem(30);
+    }
+  }
+  .timer-row {
+    border: 2px solid rgb(177, 150, 0);
+    padding: 20px 0;
+    border-radius: 20px;
+    background-color: rgba(172, 255, 47, 0.5);
+    box-shadow: 0 0 10px 0 goldenrod;
+    margin: 20px 0;
+  }
+  .col {
+    position: relative;
+  }
+  #start_stop {
+    position: absolute;
+    right: 0px;
+  }
+  #reset {
+    position: absolute;
+    left: 0px;
+  }
+  .timer-control-row {
+    height: 60px;
+    button {
+      height: 40px;
+      width: 40px;
+      border-radius: 50%;
+      border: 1px solid green;
+      box-shadow: 0 0 10px 0 greenyellow;
+      font-size: rem(20);
+      padding: 0%;
+      margin: 5px 10px;
+      background-color: rgb(177, 150, 0);
+    }
+  }
+}

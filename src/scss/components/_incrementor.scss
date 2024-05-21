@@ -1,0 +1,14 @@
+.incrementor {
+  border: 2px solid green;
+  width: 250px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px greenyellow;
+  margin: 20px;
+  display: inline-block;
+  padding: 10px;
+  .incrementor-controls {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  background-color: rgba(218, 165, 32, 0.615);
+}
